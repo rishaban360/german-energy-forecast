@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German Energy Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>German Energy Load Dashboard</h1>
+      </header>
+      <main>{% block content %}{% endblock %}</main>
+      <footer>
+        <p>Data source: ENTSO-E Transparency Platform</p>
+      </footer>
+    </div>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

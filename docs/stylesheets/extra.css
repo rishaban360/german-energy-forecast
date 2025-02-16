@@ -1,0 +1,31 @@
+.dashboard-container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dashboard-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.plot-container {
+  position: relative;
+  width: 100%;
+  margin: 1em 0;
+  background: transparent; /* Changed to transparent to match dark theme */
+  border-radius: 4px;
+}
+
+.plot-container iframe {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8050:8050"
+    environment:
+      - ENTSOE_API_KEY=${ENTSOE_API_KEY}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
