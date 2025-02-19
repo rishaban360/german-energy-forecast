@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: energy-forecast-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python scripts/deploy_api.py
+    envVars:
+      - key: ENTSOE_API_KEY
+        sync: false
+    plan: free

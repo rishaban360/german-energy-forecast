@@ -32,7 +32,11 @@ setup(
         
         # Visualization
         "matplotlib==3.10.0",
-        "seaborn==0.13.2"
+        "seaborn==0.13.2",
+        "fastapi",
+        "httpx",
+        "pytest",
+        "pytest-cov"
     ],
     extras_require={
         'dev': [

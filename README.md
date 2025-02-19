@@ -1,6 +1,6 @@
 # German Energy Load Forecasting 🔋
 
-![Dashboard Preview](docs\assets\images\eda\temperature_load_anamoly.png)
+![Dashboard Preview](docs/assets/images/eda/temperature_load_anamoly.png)
 
 A machine learning project to forecast Germany's energy consumption using ENTSO-E data, focusing on sustainable energy management through accurate load prediction.
 

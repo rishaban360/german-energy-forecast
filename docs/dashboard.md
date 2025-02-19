@@ -1,13 +1,26 @@
-# German Energy Dashboard
+# Energy Forecast Dashboard
+
+<div class="dashboard-container">
+    <div id="forecast-plot"></div>
+    <div class="stats-panel">
+        <p id="last-updated">Last updated: Loading...</p>
+        <!-- Other stats -->
+    </div>
+</div>
+
+<script src="assets/js/dashboard.js"></script>
 
 ## Live Energy Consumption
 
-<iframe
-    src="http://localhost:8050"
-    width="100%"
-    height="500px"
-    frameborder="0"
-></iframe>
+<div class="dashboard-container">
+    <iframe
+        src="https://german-energy-dashboard.onrender.com"
+        width="100%"
+        height="500px"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+    ></iframe>
+</div>
 
 ## Understanding the Dashboard
 
